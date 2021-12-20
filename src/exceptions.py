@@ -8,7 +8,7 @@ class OverFlow(Exception):
 
     def __str__(self):
         return self.message
-    
+
 
 # 처리 가능한 값보다 작은 값이 나왔을 때
 class UnderFlow(Exception):

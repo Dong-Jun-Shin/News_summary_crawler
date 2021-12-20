@@ -9,31 +9,34 @@ DESCRIPTION = '- 뉴스 요약 생성'
 
 SOURCE_REPO_PATH = os.environ['GITHUB_WORKSPACE']
 
+
 def make_commit_message():
-    ### 커밋 메세지 생성하기
+    # 커밋 메세지 생성하기
     message = SUMMARY + '\n\n' + DESCRIPTION
     return message
 
+
 def push_proc(repo):
     try:
-        ### push 전 pull 실행
+        # push 전 pull 실행
         pull_result = repo.remotes.origin.pull()[0]     # output >>> origin/main
-        ### push 실행
+        # push 실행
         push_result = repo.remotes.origin.push()[0]
-    except:
+    except Exception:
         print('error Pull or Push')
 
+
 def commit_proc(repo):
-    ### commit message 설정
+    # commit message 설정
     author = Actor(USER_AUTHOR, USER_EMAIL)        # 처음 만든 사람
     message = make_commit_message()
 
-    ### git commit 생성
+    # git commit 생성
     r_index = repo.index
     changedFiles = [item.a_path for item in repo.index.diff(None)] + repo.untracked_files
     try:
         r_add_result = r_index.add(changedFiles)
-    except:
+    except Exception:
         print('error Staging')
         return
     if r_add_result:
@@ -41,12 +44,13 @@ def commit_proc(repo):
     else:
         print('error Commit')
 
+
 def auto_push():
-    ### repo 정의
+    # repo 정의
     source_repo = Repo(SOURCE_REPO_PATH)
-    ### commit 실행
+    # commit 실행
     commit_proc(source_repo)
-    ### push 실행
+    # push 실행
     push_proc(source_repo)
 
 

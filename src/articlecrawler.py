@@ -75,7 +75,7 @@ class ArticleCrawler(object):
 
             try:
                 document_content = BeautifulSoup(request_content.content, 'html.parser')
-            except:
+            except Exception:
                 continue
 
             # try:

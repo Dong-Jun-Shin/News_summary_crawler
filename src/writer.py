@@ -10,11 +10,11 @@ class Writer(object):
         self.initialize_file(category, article_category)
 
     def initialize_file(self, category, article_category):
-        output_path = f'output'
+        output_path = f'../output/{self.date}'
         if os.path.exists(output_path) is not True:
             os.mkdir(output_path)
 
-        file_name = f'{output_path}/{self.date}/{category}_{article_category}_{self.date}.md'
+        file_name = f'{output_path}/{category}_{article_category}_{self.date}.md'
 
         user_os = str(platform.system())
         if user_os == "Windows":
