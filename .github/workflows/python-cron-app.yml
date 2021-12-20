@@ -3,7 +3,7 @@ name: news_crawler
 on:
   schedule:
     # - cron: '0 9 * * *'
-    - cron: '0 * * * *'
+    - cron: '* * * * *'
 
 jobs:
   build:
