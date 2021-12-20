@@ -4,10 +4,8 @@
 name: news_crawler
 
 on:
-  push:
-    branches: [ main ]
   schedule:
-    - cron: '* * * * *'
+    - cron: '0 0 * * *'
  
 jobs:
   build:
