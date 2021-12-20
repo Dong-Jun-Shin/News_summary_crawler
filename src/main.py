@@ -1,4 +1,4 @@
-import os
+from datetime import date
 from git import Repo, Actor
 from articlecrawler import ArticleCrawler
 
@@ -12,7 +12,7 @@ SOURCE_REPO_PATH = os.environ['GITHUB_WORKSPACE']
 
 def make_commit_message():
     # 커밋 메세지 생성하기
-    message = SUMMARY + '\n\n' + DESCRIPTION
+    message = SUMMARY + '_' + str(date.today()) + '\n\n' + DESCRIPTION
     return message
 
 
