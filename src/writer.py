@@ -10,6 +10,9 @@ class Writer(object):
         self.initialize_file(category, article_category)
 
     def initialize_file(self, category, article_category):
+        # local path
+        # output_path = f'../output/{self.date}'
+        # Github Actions path
         output_path = f'output/{self.date}'
         if os.path.exists(output_path) is not True:
             os.makedirs(output_path)
