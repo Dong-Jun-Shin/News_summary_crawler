@@ -78,93 +78,93 @@ class ArticleCrawler(object):
             except Exception:
                 continue
 
-            # try:
-            # 기사 제목 가져옴
-            tag_headline = document_content.find_all('h3', {'id': 'articleTitle'}, {'class': 'tts_head'})
-            # 스포츠 기사 대응 코드
-            if not tag_headline:
-                tag_headline = document_content.find_all('h4', {'class': 'title'})
-
-            # 뉴스 기사 제목 초기화
-            text_headline = ''
-            text_headline = text_headline + ArticleParser.clear_headline(str(tag_headline[0].find_all(text=True)))
-            # 공백일 경우 기사 제외 처리
-            if not text_headline:
-                continue
-
-            # 기사 본문 가져옴
-            tag_content = document_content.find_all('div', {'id': 'articleBodyContents'})
-            # 스포츠 기사 대응 코드
-            if not tag_content:
-                tag_content = document_content.find_all('div', {'id': 'newsEndContents'})
-            # 뉴스 기사 본문 초기화
-            text_sentence = ''
-            text_sentence = text_sentence + ArticleParser.clear_content(str(tag_content[0].find_all(text=True)))
-            # 기사 내용을 원문의 30% 비율로 요약
             try:
-                summary_contents = summarize(text_sentence, ratio=0.3)
-            except Exception:
-                summary_contents = None
-            # 원문의 길이가 10문장 이하 시, 앞에 3줄로 대체
-            if not summary_contents:
-                orig_contents = text_sentence.split('.')
-                if len(orig_contents) > 3:
-                    summary_contents = '.'.join(orig_contents[:3])
+                # 기사 제목 가져옴
+                tag_headline = document_content.find_all('h3', {'id': 'articleTitle'}, {'class': 'tts_head'})
+                # 스포츠 기사 대응 코드
+                if not tag_headline:
+                    tag_headline = document_content.find_all('h4', {'class': 'title'})
+
+                # 뉴스 기사 제목 초기화
+                text_headline = ''
+                text_headline = text_headline + ArticleParser.clear_headline(str(tag_headline[0].find_all(text=True)))
+                # 공백일 경우 기사 제외 처리
+                if not text_headline:
+                    continue
+
+                # 기사 본문 가져옴
+                tag_content = document_content.find_all('div', {'id': 'articleBodyContents'})
+                # 스포츠 기사 대응 코드
+                if not tag_content:
+                    tag_content = document_content.find_all('div', {'id': 'newsEndContents'})
+                # 뉴스 기사 본문 초기화
+                text_sentence = ''
+                text_sentence = text_sentence + ArticleParser.clear_content(str(tag_content[0].find_all(text=True)))
+                # 기사 내용을 원문의 30% 비율로 요약
+                try:
+                    summary_contents = summarize(text_sentence, ratio=0.3)
+                except Exception:
+                    summary_contents = None
+                # 원문의 길이가 10문장 이하 시, 앞에 3줄로 대체
+                if not summary_contents:
+                    orig_contents = text_sentence.split('.')
+                    if len(orig_contents) > 3:
+                        summary_contents = '.'.join(orig_contents[:3])
+                    else:
+                        summary_contents = '.'.join(orig_contents)
+
+                # 본문 이미지
+                img_content = document_content.find_all('span', {'class': 'end_photo_org'})
+                # 사진 대신 동영상일 경우, 대응 코드
+                if not img_content:
+                    img_content = ['No Image']
                 else:
-                    summary_contents = '.'.join(orig_contents)
+                    img_content = img_content[0].contents
+                img_content = str(img_content[0])
 
-            # 본문 이미지
-            img_content = document_content.find_all('span', {'class': 'end_photo_org'})
-            # 사진 대신 동영상일 경우, 대응 코드
-            if not img_content:
-                img_content = ['No Image']
-            else:
-                img_content = img_content[0].contents
-            img_content = str(img_content[0])
+                # 공백일 경우 기사 제외 처리
+                if not summary_contents:
+                    continue
 
-            # 공백일 경우 기사 제외 처리
-            if not summary_contents:
-                continue
+                # 기사 언론사 가져옴
+                tag_company = document_content.find_all('meta', {'property': 'me2:category1'})
+                if not tag_company:
+                    tag_company = document_content.find_all('meta', {'property': 'og:article:author'})
 
-            # 기사 언론사 가져옴
-            tag_company = document_content.find_all('meta', {'property': 'me2:category1'})
-            if not tag_company:
-                tag_company = document_content.find_all('meta', {'property': 'og:article:author'})
+                # 언론사 초기화
+                text_company = ''
+                text_company = text_company + str(tag_company[0].get('content'))
+                # 스포츠 기사 대응 코드
+                if not text_company.find('네이버 스포츠 | '):
+                    text_company = text_company.replace('네이버 스포츠 | ', '')
 
-            # 언론사 초기화
-            text_company = ''
-            text_company = text_company + str(tag_company[0].get('content'))
-            # 스포츠 기사 대응 코드
-            if not text_company.find('네이버 스포츠 | '):
-                text_company = text_company.replace('네이버 스포츠 | ', '')
+                # 공백일 경우 기사 제외 처리
+                if not text_company:
+                    continue
 
-            # 공백일 경우 기사 제외 처리
-            if not text_company:
-                continue
+                # 기사 시간대 가져옴
+                time = re.findall('<span class="t11">(.*)</span>', request_content.text)
+                # 스포츠 기사 대응 코드
+                if not time:
+                    time = re.findall('<span class="bar">(.*)</span>', request_content.text)
+                time = time[0].replace("최종수정 ", "").replace("</span>", "")
 
-            # 기사 시간대 가져옴
-            time = re.findall('<span class="t11">(.*)</span>', request_content.text)
-            # 스포츠 기사 대응 코드
-            if not time:
-                time = re.findall('<span class="bar">(.*)</span>', request_content.text)
-            time = time[0].replace("최종수정 ", "").replace("</span>", "")
+                # MD 작성
+                writer.write_title(text_headline)
+                writer.write_info(time, text_company, content_url)
+                writer.write_img(img_content)
+                writer.write_sentence(summary_contents)
 
-            # MD 작성
-            writer.write_title(text_headline)
-            writer.write_info(time, text_company, content_url)
-            writer.write_img(img_content)
-            writer.write_sentence(summary_contents)
-
-            del time
-            del text_company, text_sentence, summary_contents, text_headline
-            del tag_company
-            del tag_content, tag_headline
-            del request_content, document_content
+                del time
+                del text_company, text_sentence, summary_contents, text_headline
+                del tag_company
+                del tag_content, tag_headline
+                del request_content, document_content
 
             # UnicodeEncodeError
-            # except Exception as ex:
-            #     del request_content, document_content
-            #     pass
+            except Exception as ex:
+                del request_content, document_content
+                pass
         writer.close()
 
     def start(self):
