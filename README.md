@@ -27,4 +27,5 @@ ___
 ___
 
 ### 참고 소스
-- [lumyjuwon/KoreaNewsCrawler](https://github.com/lumyjuwon/KoreaNewsCrawler)
+- Crawler Source [lumyjuwon/KoreaNewsCrawler](https://github.com/lumyjuwon/KoreaNewsCrawler)
+- Github Actions Cron Source [zzsza/github-action-with-python](https://github.com/zzsza/github-action-with-python)
