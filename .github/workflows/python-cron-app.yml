@@ -3,7 +3,7 @@ name: news_crawler
 on:
   schedule:
     - cron: '* * * * *'
-
+ 
 jobs:
   build:
     runs-on: ubuntu-latest
