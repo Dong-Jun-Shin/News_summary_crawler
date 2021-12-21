@@ -1,3 +1,4 @@
+import shutil
 import platform
 from exceptions import *
 
@@ -10,6 +11,7 @@ class Writer(object):
         self.initialize_file(category, article_category)
 
     def initialize_file(self, category, article_category):
+        # 뉴스 md 파일 폴더 생성
         # local path
         # output_path = f'../output/{self.date}'
         # Github Actions path
@@ -17,6 +19,12 @@ class Writer(object):
         if os.path.exists(output_path) is not True:
             os.makedirs(output_path)
 
+        # 한달 지난 뉴스 삭제
+        del_path = f'output/{self.date.replace(month=self.date.month - 1)}'
+        if os.path.exists(del_path):
+            shutil.rmtree(del_path)
+
+        # 파일 생성
         file_name = f'{output_path}/{category}_{article_category}_{self.date}.md'
 
         user_os = str(platform.system())
