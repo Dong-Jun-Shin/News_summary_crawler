@@ -1,4 +1,4 @@
-# News_crawler
+# News summary crawler
 - 네이버 뉴스의 기사 중 'IT과학', '경제', '사회' 분야의 기사 20개씩 가져와서 요약 후 md 파일로 생성
 - 카테고리 별로 'output/{날짜}/Article_{카테고리}_{날짜}.md' 파일 생성
 - 'output' 폴더에 최근 한 달까지의 뉴스만 날짜별로 보관
