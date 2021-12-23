@@ -34,6 +34,19 @@ ___
 
 ___
 
+### 산출물 (모바일)  
+- 폴더 및 뉴스 샘플  
+![폴더 샘플](https://github.com/Dong-Jun-Shin/News_summary_crawler/blob/main/read_me_img/1.jpg)  
+![뉴스 샘플](https://github.com/Dong-Jun-Shin/News_summary_crawler/blob/main/read_me_img/2.jpg)  
+<br/><br/>
+### 산출물 (데스크톱)  
+![폴더 샘플](https://github.com/Dong-Jun-Shin/News_summary_crawler/blob/main/read_me_img/3.png)  
+![뉴스 샘플1](https://github.com/Dong-Jun-Shin/News_summary_crawler/blob/main/read_me_img/4.png)  
+![뉴스 샘플2](https://github.com/Dong-Jun-Shin/News_summary_crawler/blob/main/read_me_img/5.png)  
+<br/><br/>
+
+___
+
 ### 참고 소스
 - Crawler Source [lumyjuwon/KoreaNewsCrawler](https://github.com/lumyjuwon/KoreaNewsCrawler)
 - Github Actions Cron Source [zzsza/github-action-with-python](https://github.com/zzsza/github-action-with-python)
