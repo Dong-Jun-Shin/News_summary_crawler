@@ -1,5 +1,6 @@
 import shutil
 import platform
+from datetime import date, timedelta
 from exceptions import *
 
 
@@ -20,7 +21,8 @@ class Writer(object):
             os.makedirs(output_path)
 
         # 한달 지난 뉴스 삭제
-        del_path = f'output/{self.date.replace(month=self.date.month - 1)}'
+        prev_month_date = self.date - timedelta(days=30)
+        del_path = f'output/{prev_month_date}'
         if os.path.exists(del_path):
             shutil.rmtree(del_path)
 
