@@ -45,7 +45,7 @@ class ArticleCrawler(object):
         today = date.today()
         writer = Writer(category='Article', article_category=category_name, today=today)
         # 기사 url 형식
-        url_format = f'https://news.naver.com/main/list.naver?mode=LSD&mid=sec&sid1={self.categories.get(category_name)}&date={str(today.year) + str(today.month) + str(today.day)}'
+        url_format = f'https://news.naver.com/main/list.naver?mode=LSD&mid=sec&sid1={self.categories.get(category_name)}&date={str(today.year) + str(today.month).zfill(2) + str(today.day).zfill(2)}'
         target_urls = url_format
 
         print(category_name + " Urls are generated")
