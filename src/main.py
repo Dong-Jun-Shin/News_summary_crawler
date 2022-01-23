@@ -38,8 +38,9 @@ def commit_proc(repo):
     changedFiles = [item.a_path for item in repo.index.diff(None)] + repo.untracked_files
     try:
         r_add_result = r_index.add(changedFiles)
-    except Exception:
+    except Exception as e:
         print('error Staging')
+        print(e)
         return
     if r_add_result:
         r_index.commit(message, author=author)
