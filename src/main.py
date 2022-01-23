@@ -38,8 +38,10 @@ def commit_proc(repo):
     add_files = [item.a_path for item in repo.index.diff(None)]
     del_files = repo.untracked_files
     try:
-        r_add_result = r_index.add(add_files)
-        r_del_result = r_index.remove(del_files)
+        if add_files:
+            r_add_result = r_index.add(add_files)
+        if del_files:
+            r_del_result = r_index.remove(del_files)
     except Exception as e:
         print('error Staging')
         return
