@@ -46,7 +46,7 @@ def commit_proc(repo):
     except Exception as e:
         print('error Staging')
         return
-    if r_add_result and r_del_result:
+    if r_add_result or r_del_result:
         r_index.commit(message, author=author)
     else:
         print('error Commit')
