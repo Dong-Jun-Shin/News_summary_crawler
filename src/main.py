@@ -47,8 +47,8 @@ def commit_proc(repo):
         r_index.commit(message, author=author)
     else:
         print('error Commit')
-        print('r_add_result : ' + r_add_result)
-        print('r_del_result : ' + r_del_result)
+        print('r_add_result : ' + str(r_add_result))
+        print('r_del_result : ' + str(r_del_result))
 
 
 def auto_push():
