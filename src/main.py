@@ -32,16 +32,16 @@ def commit_proc(repo):
     # commit message 설정
     author = Actor(USER_AUTHOR, USER_EMAIL)        # 처음 만든 사람
     message = make_commit_message()
+    print(repo.index.diff(None))
+    print(repo.untracked_files)
 
     # git commit 생성
     r_index = repo.index
     changedFiles = [item.a_path for item in repo.index.diff(None)] + repo.untracked_files
     try:
-        print(changedFiles)
         r_add_result = r_index.add(changedFiles)
     except Exception as e:
         print('error Staging')
-        print(SOURCE_REPO_PATH)
         print(e)
         return
     if r_add_result:
