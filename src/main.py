@@ -32,8 +32,6 @@ def commit_proc(repo):
     # commit message 설정
     author = Actor(USER_AUTHOR, USER_EMAIL)        # 처음 만든 사람
     message = make_commit_message()
-    print(repo.index.diff(None))
-    print(repo.untracked_files)
 
     # git commit 생성
     r_index = repo.index
@@ -44,7 +42,6 @@ def commit_proc(repo):
         r_del_result = r_index.remove(del_files)
     except Exception as e:
         print('error Staging')
-        print(e)
         return
     if r_add_result and r_del_result:
         r_index.commit(message, author=author)
