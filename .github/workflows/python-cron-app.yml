@@ -3,7 +3,7 @@
 name: news_crawler
 
 on:
-  # push:
+  push:
   schedule:
     - cron: '0 6 * * *'
  
