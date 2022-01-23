@@ -8,7 +8,8 @@ USER_EMAIL = 'tlsehdwns239@gmail.com'
 SUMMARY = 'Create TodayNewsSummary'
 DESCRIPTION = '- 뉴스 요약 생성'
 
-SOURCE_REPO_PATH = os.environ['GITHUB_WORKSPACE']
+# SOURCE_REPO_PATH = os.environ['GITHUB_WORKSPACE']
+SOURCE_REPO_PATH = 'C:/Users/user/Desktop/News_summary_crawler'
 
 
 def make_commit_message():
