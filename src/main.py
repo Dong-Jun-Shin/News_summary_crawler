@@ -35,8 +35,8 @@ def commit_proc(repo):
 
     # git commit 생성
     r_index = repo.index
-    add_files = repo.untracked_files
-    del_files = [item.a_path for item in repo.index.diff(None)]
+    add_files = [item.a_path for item in repo.index.diff(None)]
+    del_files = repo.untracked_files
     try:
         r_add_result = r_index.add(add_files)
         r_del_result = r_index.remove(del_files)
