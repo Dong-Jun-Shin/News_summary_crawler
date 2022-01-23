@@ -60,6 +60,6 @@ def auto_push():
 if __name__ == "__main__":
     Crawler = ArticleCrawler()
     Crawler.set_category('IT과학', '경제', '사회')
-    Crawler.start()
+    Crawler.start() 
 
     auto_push()
