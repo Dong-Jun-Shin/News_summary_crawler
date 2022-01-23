@@ -26,6 +26,8 @@ def push_proc(repo):
         push_result = repo.remotes.origin.push()[0]
     except Exception:
         print('error Pull or Push')
+        print(str(pull_result))
+        print(str(push_result))
 
 
 def commit_proc(repo):
