@@ -37,14 +37,16 @@ def commit_proc(repo):
 
     # git commit 생성
     r_index = repo.index
-    changedFiles = [item.a_path for item in repo.index.diff(None)] + repo.untracked_files
+    add_files = repo.untracked_files
+    del_files = [item.a_path for item in repo.index.diff(None)]
     try:
-        r_add_result = r_index.add(changedFiles)
+        r_add_result = r_index.add(add_files)
+        r_del_result = r_index.remove(del_files)
     except Exception as e:
         print('error Staging')
         print(e)
         return
-    if r_add_result:
+    if r_add_result and r_del_result:
         r_index.commit(message, author=author)
     else:
         print('error Commit')
