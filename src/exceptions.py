@@ -54,3 +54,21 @@ class ExistFile(Exception):
 
     def __str__(self):
         return self.message
+
+# Git err_log 출력
+class GitErrLog():
+    prt_list = {'staging' : ['error Staging : ', 'add_files : ', 'del_files : '] \
+                , 'commit' : ['error Commit : ', 'r_add_result : ', 'r_del_result : '] \
+                , 'push' : ['error Pull or Push : ', 'pull_result : ', 'push_result : ']}
+    exp_data, log_data_1, log_data_2 = '', '', ''
+
+    def __init__(self, type, exp_data, log_data_1, log_data_2):
+        prt_str = self.prt_list[type]
+        self.prt_err_log(prt_str, exp_data, log_data_1, log_data_2)
+
+    def prt_err_log(self, prt_str, exp_data, log_data_1, log_data_2):
+        print('----------------------------------')
+        print(prt_str[0] + str(exp_data))
+        print(prt_str[1] + str(log_data_1))
+        print(prt_str[2] + str(log_data_2))
+        print('----------------------------------')

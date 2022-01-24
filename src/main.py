@@ -2,6 +2,7 @@ import os
 from datetime import date
 from git import Repo, Actor
 from articlecrawler import ArticleCrawler
+from exceptions import GitErrLog
 
 USER_AUTHOR = 'Dongjun-Shin'
 USER_EMAIL = 'tlsehdwns239@gmail.com'
@@ -36,11 +37,9 @@ def push_proc(repo):
         # push 실행
         push_result = repo.remotes.origin.push()[0]
     except Exception as e:
-        print('error Pull or Push : ' + str(e))
-        print('pull_result : ' + str(pull_result))
-        print('push_result : ' + str(push_result))
-        return 'push_proc : Success'
-    return 'push_proc : Failure'
+        GitErrLog('push', e, pull_result, push_result)
+        return 'push_proc : Failure'
+    return 'push_proc : Success'
 
 
 def commit_proc(repo):
@@ -57,18 +56,14 @@ def commit_proc(repo):
         if del_files:
             r_del_result = r_index.remove(del_files)
     except Exception as e:
-        print('error Staging : ' + str(e))
-        print('add_files : ' + str(add_files))
-        print('del_files : ' + str(del_files))
+        GitErrLog('staging', e, add_files, del_files)
         return False
     # git commit 생성
     try:
         if r_add_result or r_del_result:
             r_index.commit(message, author=author)
     except Exception as e:
-        print('error Commit : ' + str(e))
-        print('r_add_result : ' + str(r_add_result))
-        print('r_del_result : ' + str(r_del_result))
+        GitErrLog('commit', e, r_add_result, r_del_result)
         return False
     return True
 
