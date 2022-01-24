@@ -46,7 +46,9 @@ def commit_proc(repo):
         if del_files:
             r_del_result = r_index.remove(del_files)
     except Exception as e:
-        print('error Staging')
+        print('error Staging : ' + e)
+        print('add_files : ' + add_files)
+        print('del_files : ' + del_files)
         return
     if r_add_result or r_del_result:
         r_index.commit(message, author=author)
