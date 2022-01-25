@@ -36,34 +36,34 @@ def push_proc(repo):
         pull_result = repo.remotes.origin.pull()[0]     # output >>> origin/main
         # push 실행
         push_result = repo.remotes.origin.push()[0]
-    except Exception as e:
-        GitErrLog('push', e, pull_result, push_result)
+    except Exception as push_err:
+        GitErrLog(push_err=push_err, pull_result=pull_result, push_result=push_result)
         return 'push_proc : Failure'
     return 'push_proc : Success'
 
 
 def commit_proc(repo):
     # commit message 설정
-    author = Actor(USER_AUTHOR, USER_EMAIL)        # 처음 만든 사람
+    author = Actor(USER_AUTHOR, USER_EMAIL)        # commit을 처음 만든 사람
     message = make_commit_message()
     # git staging 생성
     add_files, del_files = get_tracked_path(repo)
     r_index = repo.index
     try:
-        r_add_result, r_del_result = [], []
+        stg_add, stg_del = [], []
         if add_files:
-            r_add_result = r_index.add(add_files)
+            stg_add = r_index.add(add_files)
         if del_files:
-            r_del_result = r_index.remove(del_files)
-    except Exception as e:
-        GitErrLog('staging', e, add_files, del_files)
+            stg_del = r_index.remove(del_files)
+    except Exception as stg_err:
+        GitErrLog(stg_err=stg_err, add_files=add_files, del_files=del_files)
         return False
     # git commit 생성
     try:
-        if r_add_result or r_del_result:
+        if stg_add or stg_del:
             r_index.commit(message, author=author)
-    except Exception as e:
-        GitErrLog('commit', e, r_add_result, r_del_result)
+    except Exception as cmt_err:
+        GitErrLog(cmt_err=cmt_err, stg_add=stg_add, stg_del=stg_del)
         return False
     return True
 
