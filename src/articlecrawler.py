@@ -75,8 +75,9 @@ class ArticleCrawler(object):
 
             try:
                 document_content = BeautifulSoup(request_content.content, 'html.parser')
-            except Exception:
-                continue
+            except Exception as e:
+                print(ex);
+                raise e
 
             try:
                 # 기사 제목 가져옴
@@ -91,7 +92,7 @@ class ArticleCrawler(object):
                 text_headline = text_headline.replace('속보', '[속보] ')
                 # 공백일 경우 기사 제외 처리
                 if not text_headline:
-                    continue
+                    raise Exception('Not found article headline')
 
                 # 기사 본문 가져옴
                 tag_content = document_content.find_all('div', {'id': 'newsct_article'})
@@ -114,6 +115,10 @@ class ArticleCrawler(object):
                     else:
                         summary_contents = '.'.join(orig_contents)
 
+                # 공백일 경우 기사 제외 처리
+                if not summary_contents:
+                    raise Exception('Not found article contents')
+
                 # 본문 이미지
                 img_src = document_content.find_all('img', {'id': 'img1'})
                 img_description = document_content.find_all('em', {'class': 'img_desc'})
@@ -125,10 +130,6 @@ class ArticleCrawler(object):
                 if img_description:
                     img_content = img_content + str(img_description[0])
                 
-                # 공백일 경우 기사 제외 처리
-                if not summary_contents:
-                    continue
-
                 # 기사 언론사 가져옴
                 tag_company = document_content.find_all('meta', {'property': 'me2:category1'})
                 if not tag_company:
@@ -145,7 +146,7 @@ class ArticleCrawler(object):
 
                 # 공백일 경우 기사 제외 처리
                 if not text_company:
-                    continue
+                    raise Exception('Not found article author')
 
                 # 기사 시간대 가져옴
                 time = re.findall('<span class="media_end_head_info_datestamp_time _ARTICLE_MODIFY_DATE_TIME" data-modify-date-time="(.*)">(.*)</span>', request_content.text)
@@ -168,8 +169,9 @@ class ArticleCrawler(object):
 
             # UnicodeEncodeError
             except Exception as ex:
+                print(ex);
                 del request_content, document_content
-                pass
+                raise ex
         writer.close()
 
     def start(self):
