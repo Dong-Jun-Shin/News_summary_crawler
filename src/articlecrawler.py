@@ -88,6 +88,7 @@ class ArticleCrawler(object):
                 # 뉴스 기사 제목 초기화
                 text_headline = ''
                 text_headline = text_headline + ArticleParser.clear_headline(str(tag_headline[0].find_all(text=True)))
+                text_headline = text_headline.replace('속보', '[속보] ')
                 # 공백일 경우 기사 제외 처리
                 if not text_headline:
                     continue
