@@ -120,7 +120,7 @@ class ArticleCrawler(object):
                 if not img_src:
                     img_src = ['No Image']
                 
-                img_content = str(img_src[0]).replace('\n', '')
+                img_content = str(img_src[0]).replace('class="_LAZY_LOADING"', '').replace('data-src', 'src').replace('\n', '')
                 if img_description:
                     img_content = img_content + str(img_description[0])
                 
