@@ -1,4 +1,94 @@
 <!-- 타이틀 -->  
+# 신규확진 2만6256명으로 전주보다 4800명↑…겨울 재유행 다가온다  
+<!-- 기사 정보 -->  
+> Date : 2022.10.23. 오후 2:32  
+> Author : 디지털타임스  
+> Original : [원문기사](https://n.news.naver.com/mnews/article/029/0002761092?sid=105)  
+<br/>  
+<!-- 대표 이미지 -->  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761092_001_20221023143201124.jpg?type=w647" id="img1"></img><em class="img_desc">21일 오전 서울 송파구보건소에 마련된 선별검사소에서 의료진이 검사를 받으러 온 시민을 안내하고 있다. 연합뉴스    </em>  
+<br/><br/>  
+<!-- 기사 본문 -->  
+사흘 연속 1주 전보다 증가 코로나19 신규 확진자가 사흘 연속 일주일 전 대비 증가세를 보이고 있다.
+인공호흡기나 에크모 ECMO·체외막산소공급장치 등의 치료를 받는 위중증 환자는 하루 사이에 16명 늘어 212명으로 집계됐다.
+여러 차례 백신 접종으로 인한 피로감과 백신에 대한 불신이 겹치면서 백신 접종이 저조한 것이 상황 악화를 가속화할 수 있다는 우려도 나온다.
+이달 11일 시작한 코로나19 2가 백신과 7월 시작한 4차 백신 접종률이 크게 저조한 상황이다.
+한편 전날 하루 동안 숨진 확진자는 16명으로 직전일 22명 보다 6명 감소했다.
+이날 0시 기준 자택에서 격리 중인 재택치료 환자는 15만 6475명이다.  
+<br/><br/><br/>  
+
+<!-- 타이틀 -->  
+# “구글식 제3자결제는 금지행위 위반”…국회입법조사처  
+<!-- 기사 정보 -->  
+> Date : 2022.10.23. 오후 2:20  
+> Author : 이데일리  
+> Original : [원문기사](https://n.news.naver.com/mnews/article/018/0005347902?sid=105)  
+<br/>  
+<!-- 대표 이미지 -->  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/018/2022/10/23/0005347902_001_20221023142001094.jpg?type=w647" id="img1"></img>  
+<br/><br/>  
+<!-- 기사 본문 -->  
+사진 뉴스1 조승래 의원 더불어민주당 구글식 제3자 결제는 인앱결제 강제를 금지하는 전기통신사업법 제50조의 금지행위에 해당하는 것으로 나타났다.
+입법조사처는 인앱결제 내 제3자 결제에 높은 수수료를 내도록 설정하고 외부 앱 결제를 금지하고 외부 웹 결제에 대한 안내를 금지하는 것은 ‘거래상의 지위를 부당하게 이용해 특정한 결제방식을 강제하는 행위’에 해당한다고 봤다.
+방통위는 이번 국감에서 구글 애플 등이 중요 자료를 제출하지 않고 있어 시정명령과 이행강제금 부과까지 검토하고 있다고 답변했다.
+조승래 의원은 “국회 입법조사처까지 구글의 인앱결제 정책이 금지행위 위반이라고 인정한 만큼 방통위는 모든 자원을 동원해 조사하고 확인된 위법행위에 대해 단호한 조처를 내려야 할 것”이라고 말했다.  
+<br/><br/><br/>  
+
+<!-- 타이틀 -->  
+# 아리랑 위성 부품 고장…대러 제재로 위성 교체도 미뤄져  
+<!-- 기사 정보 -->  
+> Date : 2022.10.23. 오후 2:17  
+> Author : 노컷뉴스  
+> Original : [원문기사](https://n.news.naver.com/mnews/article/079/0003698769?sid=105)  
+<br/>  
+<!-- 대표 이미지 -->  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/079/2022/10/23/0003698769_001_20221023141701204.jpg?type=w647" id="img1"></img><em class="img_desc">다목적실용위성5호(아리랑5호). 연합뉴스</em>  
+<br/><br/>  
+<!-- 기사 본문 -->  
+핵심요약 국회 과학기술정보통신위원회 소속 더불어민주당 박완주 의원이 과기정통부로부터 받은 자료에 따르면 현재 운용중인 아리랑 위성 3호와 3A호 5호 위성 모두 일부 부품에서 오류가 발생해 대체 부품을 사용하고 있다.
+다목적실용위성5호 아리랑5호 .
+국회 과학기술정보통신위원회 소속 더불어민주당 박완주 의원이 과학기술정보통신부로부터 받은 인공위성 에러 발생 현황 에 따르면 현재 운용중인 아리랑 위성 3호와 3A호 5호 위성 모두 일부 부품에서 오류가 발생해 대체 부품을 사용하고 있다.  
+<br/><br/><br/>  
+
+<!-- 타이틀 -->  
+# “후속 위성 발 묶인 ‘아리랑 위성 삼형제’…아슬아슬 외줄타기 운용”  
+<!-- 기사 정보 -->  
+> Date : 2022.10.23. 오후 2:32  
+> Author : 조선비즈  
+> Original : [원문기사](https://n.news.naver.com/mnews/article/366/0000849383?sid=105)  
+<br/>  
+<!-- 대표 이미지 -->  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/366/2022/10/23/0000849383_001_20221023143301477.jpg?type=w647" id="img1"></img><em class="img_desc">한국의 다목적실용위성 아리랑5호를 실은 러시아 드네프르 발사체가 2013년 8월 22일 오후 8시 39분쯤 러시아 남부 야스니 발사장에서 발사되고 있다. /한국항공우주연구원</em>  
+<br/><br/>  
+<!-- 기사 본문 -->  
+박완주 “아리랑 6·7호 대러 제재·코로나19 등으로 발사·개발 지연” 아리랑 3·3A·5호 대체 부품 사용 중…”기능 수행에는 문제 없어” 한국의 다목적실용위성 아리랑5호를 실은 러시아 드네프르 발사체가 2013년 8월 22일 오후 8시 39분쯤 러시아 남부 야스니 발사장에서 발사되고 있다.
+한국항공우주연구원 국토 정책 수립에 필요한 연구와 북한 감시 목적으로 사용되는 다목적실용위성 아리랑 3호와 3A호 5호가 발사한 지 7 10년이 지나면서 위성 제어와 기능에 필요한 핵심 부품이 고장 나 대체부품으로 운영되고 있다는 주장이 나왔다.
+23일 국회 과학기술정보통신위원회 소속 박완주 의원이 과학기술정보통신부로부터 제출받은 자료에 따르면 정부가 운용 중인 전자광학 위성인 아리랑3호와 3A호 합성개구레이더 SAR 위성인 아리랑5호가 주요 부품이 고장난 채 대체부품을 가동해 운영되고 있는 것으로 나타났다.
+현재는 광학 위성인 아리랑 3·3A호 레이더 위성인 5호가 임무를 수행하고 있다.
+하지만 박 의원실이 과기정통부에서 제출받은 ‘인공위성 에러 발생 현황’에 따르면 현재 운용 중인 아리랑 3·3A·5호 위성 모두 일부 부품에 에러가 발생해 대체 부품을 사용하고 있는 것으로 나타났다.
+하지만 X밴드 송신기와 S밴드 수신기 전력분배 장치의 주요 부품에서 오류가 발생해 현재 대체 부품을 사용하고 있는 것으로 나타났다.
+2015년 발사된 광학과 IR 위성인 3A호도 관제에 필요한 S밴드 업링크 시스템과 전력분배 장치 부품에 에러가 발생한 것으로 나타났다.
+현재는 대체 부품으로 운용되고 있지만 S밴드 부품에 또 다른 에러가 발생해 사실상 위성 활용이 어려운 것으로 나타났다.
+앞서 2013년 발사된 아리랑5호도 S밴드 수신기 주 부품이 고장 나 대체 부품을 사용하고 있는 것으로 보고됐다.
+정부는 8867억 원을 투자해 아리랑 5호를 대체할 해상도 1m급 SAR 위성인 아리랑 6호와 사람도 인식하는 초정밀 광학위성인 아리랑7호를 개발하고 있다.
+아리랑3A호를 대체하기 위해 2024년 발사를 목표로 개발 중인 해상도 0.3m급 적외선 위성인 아리랑 7A호도 발사체 공급이 부족해지면 발사가 늦춰질 수 있는 실정이다.  
+<br/><br/><br/>  
+
+<!-- 타이틀 -->  
+# 국내 제약바이오社 유럽 제약 박람회 잇따라 참가  
+<!-- 기사 정보 -->  
+> Date : 2022.10.23. 오후 2:14  
+> Author : 노컷뉴스  
+> Original : [원문기사](https://n.news.naver.com/mnews/article/079/0003698768?sid=105)  
+<br/>  
+<!-- 대표 이미지 -->  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/079/2022/10/23/0003698768_001_20221023141401225.jpg?type=w647" id="img1"></img><em class="img_desc">바이오유럽 제공</em>  
+<br/><br/>  
+<!-- 기사 본문 -->  
+다음달 1일부터 3일까지 독일 프랑크푸르트에서 열리는 세계 최대 제약 박람회인 국제의약품박람회 에도 국내 기업 62곳이 참가한다.  
+<br/><br/><br/>  
+
+<!-- 타이틀 -->  
 # 행안부 13개 지자체 보증채무 이행 의사 확인  
 <!-- 기사 정보 -->  
 > Date : 2022.10.23. 오후 2:07  
@@ -6,11 +96,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/092/0002271493?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP is_small">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/092/2022/10/23/0002271493_001_20221023140701240.jpg?type=w647" id="img1">
-</img></div>
-</div>  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/092/2022/10/23/0002271493_001_20221023140701240.jpg?type=w647" id="img1"></img>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 향후 지방자치단체의 보증채무 사업에 대해서는 엄격한 중앙투자심사를 실시하여 부실 사업을 사전에 방지할 계획이다.
@@ -25,11 +111,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/079/0003698765?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/079/2022/10/23/0003698765_001_20221023140601261.jpg?type=w647" id="img1">
-</img></div>
-</div>  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/079/2022/10/23/0003698765_001_20221023140601261.jpg?type=w647" id="img1"></img>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 중소기업중앙회가 최근 온라인 플랫폼 입점 소상공인 500곳을 대상으로 설문조사를 실시한 결과 72.4%가 온라인 플랫폼의 수수료와 광고료 등 비용이 부담된다 고 응답했다.  
@@ -43,11 +125,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/009/0005034220?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP is_small">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/009/2022/10/23/0005034220_001_20221023140402340.jpg?type=w647" id="img1">
-</img></div>
-</div>  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/009/2022/10/23/0005034220_001_20221023140402340.jpg?type=w647" id="img1"></img>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 국무총리 소속으로 지위 격하 인력도 전문성 갖추기 어려워 우리 무기는 핵 아냐…반도체고 기술 기획단장도 사퇴…리더십 공백 우려 지식재산 정책 컨트롤타워 국가지식재산위원회 지재위 에서 민간위원장을 맡고 있던 정상조 서울대 법학전문대학원 교수가 위원장직에서 사퇴하겠다는 의사를 밝혔다.
@@ -86,11 +164,7 @@ No Image
 > Original : [원문기사](https://n.news.naver.com/mnews/article/029/0002761081?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP is_long">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761081_001_20221023140401112.jpg?type=w647" id="img1">
-</img></div>
-</div>  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761081_001_20221023140401112.jpg?type=w647" id="img1"></img><em class="img_desc">김범수 카카오 창업주. 카카오 제공    </em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 2021년 10월 국회 국정감사에서 김범수 카카오 창업주 지난해 여야 의원들의 강한 질타를 받으며 연신 고개를 숙였던 김범수 카카오 창업주가 올해도 국회 국정감사에 출석한다.
@@ -110,11 +184,7 @@ No Image
 > Original : [원문기사](https://n.news.naver.com/mnews/article/030/0003053279?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/030/2022/10/23/0003053279_001_20221023140103672.jpg?type=w647" id="img1">
-</img></div>
-</div>  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/030/2022/10/23/0003053279_001_20221023140103672.jpg?type=w647" id="img1"></img><em class="img_desc">지난해 지스타 2021이 개최된 벡스코 전시장(전자신문DB)</em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 지난해 지스타 2021이 개최된 벡스코 전시장 전자신문DB 넥슨이 내달 부산에서 개최되는 국내 최대 게임쇼 지스타 에 300부스 규모로 전시장을 꾸린다.
@@ -133,11 +203,7 @@ B2C관과 야외 광장에 100부스 규모로 전시관을 꾸린다.
 > Original : [원문기사](https://n.news.naver.com/mnews/article/030/0003053278?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/030/2022/10/23/0003053278_001_20221023140101095.jpg?type=w647" id="img1">
-</img></div>
-</div>  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/030/2022/10/23/0003053278_001_20221023140101095.jpg?type=w647" id="img1"></img><em class="img_desc">LG전자 모델들이 팝업스토어에서 LG 디오스 오브제컬렉션 무드업을 체험하고 있다. [자료:LG전자]</em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 자료 LG전자 LG전자는 21일부터 내달 5일까지 서울 익선동 루프스테이션 익선 에서 독특하고 신비로운 콘셉트의 오브제 유니버스 팝업스토어를 운영한다고 밝혔다.
@@ -153,11 +219,7 @@ LG전자는 LG 씽큐 앱에서 원하는 컬러를 선택하면 냉장고 색�
 > Original : [원문기사](https://n.news.naver.com/mnews/article/293/0000041139?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/293/2022/10/23/0000041139_001_20221023140301393.jpg?type=w647" id="img1">
-</img></div>
-</div>  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/293/2022/10/23/0000041139_001_20221023140301393.jpg?type=w647" id="img1"></img><em class="img_desc">LG전자가 강남역에 운영하고 있는 '금성오락실' 전경. (사진=김수민 기자)</em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 사진 김수민 기자 LG전자가 강남역 한복판에 뉴트로 콘셉트로 ‘금성오락실’을 꾸렸다.
@@ -183,11 +245,7 @@ LG 올레드 플렉스로 레이싱 게임을 즐기는 모습.
 > Original : [원문기사](https://n.news.naver.com/mnews/article/011/0004113358?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/011/2022/10/23/0004113358_001_20221023135801082.jpg?type=w647" id="img1">
-</img></div>
-</div>  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/011/2022/10/23/0004113358_001_20221023135801082.jpg?type=w647" id="img1"></img><em class="img_desc">/AP연합뉴스</em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 블룸버그 美 첨단 기술 통제 조치 보조 맞춰 바이렌 AI칩 BR100 엔비디아 A100 성능 위협 AP연합뉴스 서울경제 세계 최대 파운드리 업체 TSMC가 중국의 첨단 반도체 스타트업의 인공지능 AI 그래픽처리장치 GPU 위탁 생산을 중단하기로 했다.
@@ -203,11 +261,7 @@ LG 올레드 플렉스로 레이싱 게임을 즐기는 모습.
 > Original : [원문기사](https://n.news.naver.com/mnews/article/029/0002761073?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP is_long">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761073_001_20221023134601098.jpg?type=w647" id="img1">
-</img></div>
-</div>  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761073_001_20221023134601098.jpg?type=w647" id="img1"></img><em class="img_desc">한국화학연구원은 얇은 원자층으로 이뤄진 이차원 박막 반도체를 빛으로 땜질해 가공하는 반도체 가공기술을 개발했다.     화학연 제공    </em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 화학연 광땜질 반도체 가공기술 개발 레이저로 인듐나노입자 녹여 패턴 형성 반도체 메모리 투명 유연 디스플레이 적용 차세대 반도체 소자로 각광받는 이차원 박막 반도체 를 빛으로 땜질하듯 가공할 수 있는 기술이 개발됐다.
@@ -223,11 +277,7 @@ LG 올레드 플렉스로 레이싱 게임을 즐기는 모습.
 > Original : [원문기사](https://n.news.naver.com/mnews/article/029/0002761070?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP is_long">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761070_001_20221023134201132.jpg?type=w647" id="img1">
-</img></div>
-</div>  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761070_001_20221023134201132.jpg?type=w647" id="img1"></img><em class="img_desc">박찬대 의원.    </em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 23일 국회 과학기술정보방송통신위원회 소속 박찬대 더불어민주당 의원이 과기정통부로부터 제출받은 통신서비스 품질평가 신뢰성 제고 방안 에 따르면 과기정통부와 이동통신 3사가 해당 구간의 LTE 품질 개선에 나설 예정이다.
@@ -243,11 +293,7 @@ LG 올레드 플렉스로 레이싱 게임을 즐기는 모습.
 > Original : [원문기사](https://n.news.naver.com/mnews/article/025/0003232681?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/025/2022/10/23/0003232681_001_20221023133201155.jpg?type=w647" id="img1">
-</img></div>
-</div>  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/025/2022/10/23/0003232681_001_20221023133201155.jpg?type=w647" id="img1"></img><em class="img_desc">LG전자가 21일부터 다음달 5일까지 서울 종로구 '루프스테이션 익선'에서 냉장고 신제품 'LG 디오스 오브제컬렉션 무드업(MoodUp)'을 체험할 수 있는 '오브제 유니버스' 팝업스토어를 운영한다. 사진은 팝업스토어에서 LG 디오스 오브제컬렉션 무드업을 체험하는 모델들. 사진 LG전자</em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 LG전자는 서울 종로구 익선동 루프스테이션 익선에서 오브제 유니버스 Objet Universe 팝업스토어를 운영한다고 23일 밝혔다.
@@ -262,14 +308,10 @@ LG전자가 21일부터 다음달 5일까지 서울 종로구 루프스테이션
 > Original : [원문기사](https://n.news.naver.com/mnews/article/018/0005347886?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/018/2022/10/23/0005347886_001_20221023135201054.jpg?type=w647" id="img1">
-</img></div>
-</div>  
+<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/018/2022/10/23/0005347886_001_20221023141101050.jpg?type=w647" id="img1"></img>  
 <br/><br/>  
 <!-- 기사 본문 -->  
-CJ그룹 7 8년 만에 10월 중 임원 인사 예정 다음주로 임박..구창근 CJ올리브영 대표는 기업가치 향상 전문가 구창근 내정자는 CJ그룹 최연소 CEO..최신 트렌드에 밝아 콘텐츠 전문가는 아냐..양지을 티빙 대표는 유임 이데일리 김현아 기자 국내 최대 종합 엔터테인먼트 기업인 CJ ENM 035760 의 대표이사가 검사 출신에서 증권사 애널리스트 출신으로 바뀐다.
+CJ그룹 내주 7 8년 만에 임원 인사 예정 구창근 내정자 애널리스트 출신 2010년 CJ 합류 양지을 티빙 대표는 유임 이데일리 김현아 기자 국내 최대 종합 엔터테인먼트 기업인 CJ ENM 035760 의 대표이사가 검사 출신에서 증권사 애널리스트 출신으로 바뀐다.
 23일 업계에 따르면 CJ그룹은 다음 주 임원 공식 인사를 통해 신임 CJ ENM 대표로 구창근 50 CJ올리브영 대표를 선임할 예정이다.
 강호성 대표는 지주사로 자리를 옮길 예정이다.
 삼성증권 애널리스트 당시 CJ ENM과 CJ제일제당을 담당한 구 대표는 CJ에 대한 비판적인 사업 분석 보고서 덕분에 이 회장 눈에 들어 입사한 것으로 알려졌다.
@@ -277,71 +319,5 @@ CJ 고위 관계자는 “다음 주 그룹 공식 임원 인사가 발표될 �
 그는 지난해 12월 미디어 간담회에서 “CJ올리브영을 헬스앤뷰티 H B 스토어를 뛰어넘는 옴니채널 ‘라이프스타일 플랫폼’으로 키우겠다”고 말했다.
 한편 그룹 내 미디어·콘텐츠 전문가인 OTT 티빙의 양지을 54 대표는 유임되는 것으로 전해졌다.
 CJ ENM 자회사인 티빙은 지난해 762억 원의 영업손실을 냈다.  
-<br/><br/><br/>  
-
-<!-- 타이틀 -->  
-# 심장수술·분자설계·핵융합도 가상시뮬레이션하는 시대  
-<!-- 기사 정보 -->  
-> Date : 2022.10.23. 오후 1:28  
-> Author : 한국경제  
-> Original : [원문기사](https://n.news.naver.com/mnews/article/015/0004765863?sid=105)  
-<br/>  
-<!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/015/2022/10/23/0004765863_001_20221023132803762.jpg?type=w647" id="img1">
-</img></div>
-</div>  
-<br/><br/>  
-<!-- 기사 본문 -->  
-버추얼트윈 세계 톱 다소시스템 사업부 총괄대표 인터뷰 실패 리스크 큰 바이오·원전 분야서 응용…AI가 디자인 제안도 노후 항공기 재활용 프로젝트도… 맞춤형 경험 제공 기업이 승자 다쏘시스템의 3D기술로 제작한 인체를 VR 기기를 황용해 확인하는 장면.
-지앙 파올로 바씨 다쏘시스템 3D익스피리언스웍스 총괄대표 사진 는 23일 한국경제신문과의 인터뷰에서 몇 년 전까지만 해도 불가능했던 시뮬레이션 영역이 인공지능 AI 빅데이터 등 디지털 대전환 DX 기술로 가능해지고 있다 며 이같이 말했다.
-디지털에서 뛰는 심장 똑같이 구현...신약 임상반응도 시뮬레이션 가능 이 회사는 가상의 공간에서 제품을 똑같이 구현하는 디지털트윈 단계를 넘어 충돌 테스트처럼 각종 동작과 물성 변화까지 현실처럼 구현해낸 버추얼트윈 기술의 선두주자다.
-실제 국내 바이오 벤처기업 티니코의 경우 척추 기형 환자들을 위한 보형물을 만들기위해 생체 의료용 합금을 개발하는 과정에서 이 회사의 기술을 활용했다.
-또 물질의 원자 단위 이하의 물리 화학적 성질도 데이터화했기 때문에 핵융합 기술이나 새로운 원전 기술 양자컴퓨터와 반도체 신소재 개발에도 활용되고 있다고 그는 설명했다.
-다쏘시스템 제공 이 회사의 AI 머신러닝 기계학습 빅데이터 클라우드 등 DX기술을 활용한 시뮬레이션 결과는 실제 실험결과와 거의 유사하다고 그는 강조했다.
-경제의 서비스化 가속 새로운 경험 제공하는 기업이 승자될 것 독보적인 기술 덕분에 글로벌 굴지의 기업들도 이 회사 기술을 통한 제조 혁신에 나서고 있다.
-그는 고객사의 제조 혁신이 용이하도록 3D익스피리언스 웍스내 디자인 시뮬레이션 제조 데이터관리 마케팅 등을 클라우드내 단일 플랫폼으로 통합했다 고 소개했다.
-그는 미래 수요는 제품이 아닌 서비스 중심으로 형성돼 경제의 서비스화 가 가속화될 것 이라며 단순 서비스가 아니라 새로운 경험을 제공하는 기업이 승자가 될 것 이라고 강조했다.  
-<br/><br/><br/>  
-
-<!-- 타이틀 -->  
-# 삼성 갤Z플립4 태국 지상철 타고 방콕 시내 달린다  
-<!-- 기사 정보 -->  
-> Date : 2022.10.23. 오후 1:11  
-> Author : 파이낸셜뉴스  
-> Original : [원문기사](https://n.news.naver.com/mnews/article/014/0004916762?sid=105)  
-<br/>  
-<!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/014/2022/10/23/0004916762_001_20221023131102354.jpg?type=w647" id="img1">
-</img></div>
-</div>  
-<br/><br/>  
-<!-- 기사 본문 -->  
-갤Z플립4 이미지로 랩핑 쇼핑몰 등 모인 중심가 관통 현지 캐릭터와도 콜라보 갤럭시 Z 플립4와 구글을 상징하는 다양한 앱 이미지로 랩핑된 태국 방콕 수쿰빗 라인 스카이 트레인.
-삼성전자 제공 갤럭시 Z 플립4와 태국 현지 디자이너의 다양한 캐릭터로 랩핑된 태국 방콕 수쿰빗 라인 스카이 트레인.
-이외 삼성전자는 태국 디자이너와 협업해 갤럭시Z플립4와 다양한 현지 캐릭터로 디자인 된 랩핑 열자도 함께 선보인다.  
-<br/><br/><br/>  
-
-<!-- 타이틀 -->  
-# USBC 타입 국가표준으로  
-<!-- 기사 정보 -->  
-> Date : 2022.10.23. 오후 2:11  
-> Author : ZDNet Korea  
-> Original : [원문기사](https://n.news.naver.com/mnews/article/092/0002271492?sid=105)  
-<br/>  
-<!-- 대표 이미지 -->  
-<div class="nbd_im_w _LAZY_LOADING_WRAP">
-<div class="nbd_a _LAZY_LOADING_ERROR_HIDE" id="img_a1">
-<img class="_LAZY_LOADING" data-src="https://imgnews.pstatic.net/image/092/2022/10/23/0002271492_001_20221023141101230.jpg?type=w647" id="img1">
-</img></div>
-</div>  
-<br/><br/>  
-<!-- 기사 본문 -->  
-전자제품 전원·데이터접속 기준 통합…11월 말 가이드라인 발표 산업통상자원부 국가기술표준원은 전자제품 전원·데이터접속 커넥터 형상을 USB C 타입으로 통합·호환해 산업경쟁력을 확보할 수 있도록 국가표준 KS 으로 제정한다고 23일 밝혔다.
-국표원은 또 국내 제조사·수출기업·수입자·소비자 대상으로 KS 국가표준 3종 소개 ‘USB C 표준의 국내 적용을 위한 가이드라인 버전 1.0 ’ 발간 및 홍보자료 소개를 위한 ‘전원 데이터·접속 USB C 표준 기업설명회”를 11월 말 개최할 계획이다.
-이상훈 국가기술표준원장은 “전원·데이터 접속 표준화는 국내 산업의 융·복합 분야 시장 확대 전자폐기물 감소를 통한 환경보호 소비자 사용 환경 개선을 통한 국민편의 증진 등에 동시에 기여할 수 있게 됐다”며 “앞으로 산업현장에서 USB C 표준을 적용할 때 발생하는 애로사항을 해소해 국민이 불편함 없이 USB C 적용제품을 구매․사용할 수 있도록 다양한 정책적 지원을 확대할 예정”이라고 밝혔다.  
 <br/><br/><br/>  
 

@@ -114,14 +114,16 @@ class ArticleCrawler(object):
                         summary_contents = '.'.join(orig_contents)
 
                 # 본문 이미지
-                img_content = document_content.find_all('span', {'class': 'end_photo_org'})
+                img_src = document_content.find_all('img', {'id': 'img1'})
+                img_description = document_content.find_all('em', {'class': 'img_desc'})
                 # 사진 대신 동영상일 경우, 대응 코드
-                if not img_content:
-                    img_content = ['No Image']
-                else:
-                    img_content = img_content[0].contents
-                img_content = str(img_content[0])
-
+                if not img_src:
+                    img_src = ['No Image']
+                
+                img_content = str(img_src[0]).replace('\n', '')
+                if img_description:
+                    img_content = img_content + str(img_description[0])
+                
                 # 공백일 경우 기사 제외 처리
                 if not summary_contents:
                     continue
