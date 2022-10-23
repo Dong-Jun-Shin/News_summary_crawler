@@ -134,10 +134,10 @@ class ArticleCrawler(object):
                 # 언론사 초기화
                 text_company = ''
                 text_company = text_company + str(tag_company[0].get('content'))
-                if not text_company.find(' | 네이버'):
+                if text_company.find(' | 네이버') != -1:
                     text_company = text_company.replace(' | 네이버', '')
                 # 스포츠 기사 대응 코드 (수정 필요)
-                if not text_company.find('네이버 스포츠 | '):
+                if text_company.find('네이버 스포츠 | ') != -1:
                     text_company = text_company.replace('네이버 스포츠 | ', '')
 
                 # 공백일 경우 기사 제외 처리
