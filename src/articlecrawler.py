@@ -80,8 +80,8 @@ class ArticleCrawler(object):
 
             try:
                 # 기사 제목 가져옴
-                tag_headline = document_content.find_all('h3', {'id': 'articleTitle'}, {'class': 'tts_head'})
-                # 스포츠 기사 대응 코드
+                tag_headline = document_content.find_all('h2', {'class': 'media_end_head_headline'})
+                # 스포츠 기사 대응 코드 (수정 필요)
                 if not tag_headline:
                     tag_headline = document_content.find_all('h4', {'class': 'title'})
 
@@ -93,8 +93,8 @@ class ArticleCrawler(object):
                     continue
 
                 # 기사 본문 가져옴
-                tag_content = document_content.find_all('div', {'id': 'articleBodyContents'})
-                # 스포츠 기사 대응 코드
+                tag_content = document_content.find_all('div', {'id': 'newsct_article'})
+                # 스포츠 기사 대응 코드 (수정 필요)
                 if not tag_content:
                     tag_content = document_content.find_all('div', {'id': 'newsEndContents'})
                 # 뉴스 기사 본문 초기화
@@ -134,7 +134,9 @@ class ArticleCrawler(object):
                 # 언론사 초기화
                 text_company = ''
                 text_company = text_company + str(tag_company[0].get('content'))
-                # 스포츠 기사 대응 코드
+                if not text_company.find(' | 네이버'):
+                    text_company = text_company.replace(' | 네이버', '')
+                # 스포츠 기사 대응 코드 (수정 필요)
                 if not text_company.find('네이버 스포츠 | '):
                     text_company = text_company.replace('네이버 스포츠 | ', '')
 
@@ -143,11 +145,11 @@ class ArticleCrawler(object):
                     continue
 
                 # 기사 시간대 가져옴
-                time = re.findall('<span class="t11">(.*)</span>', request_content.text)
-                # 스포츠 기사 대응 코드
+                time = re.findall('<span class="media_end_head_info_datestamp_time _ARTICLE_MODIFY_DATE_TIME" data-modify-date-time="(.*)">(.*)</span>', request_content.text)
+                # 스포츠 기사 대응 코드 (수정 필요)
                 if not time:
-                    time = re.findall('<span class="bar">(.*)</span>', request_content.text)
-                time = time[0].replace("최종수정 ", "").replace("</span>", "")
+                    time = re.findall('<span class="media_end_head_info_datestamp_time _ARTICLE_DATE_TIME" data-date-time="(.*)">(.*)</span>', request_content.text)
+                time = time[0][1]
 
                 # MD 작성
                 writer.write_title(text_headline)
