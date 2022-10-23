@@ -6,7 +6,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/020/0003457788?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/020/2022/10/23/0003457788_001_20221023143901063.jpg?type=w647" id="img1"></img>  
+<img src="https://imgnews.pstatic.net/image/020/2022/10/23/0003457788_001_20221023143901063.jpg?type=w647" id="img1"></img>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 화요일인 25일 아침 최저기온은 4 12도 낮 최고기온은 14 18도로 평년 낮 최고 19 22도 보다 5도가량 낮겠다.
@@ -22,7 +22,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/030/0003053284?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/030/2022/10/23/0003053284_001_20221023143601114.jpg?type=w647" id="img1"></img>  
+<img src="https://imgnews.pstatic.net/image/030/2022/10/23/0003053284_001_20221023143601114.jpg?type=w647" id="img1"></img>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 문화체육관광부 전자신문사 더게임스데일리가 공동주최하고 한국콘텐츠진흥원이 주관한 2022 이달의 우수게임 시상식 이 지난 21일 서울 중구 CKL스테이지에서 열렸다. 2022년 상·하반기 일반게임 기능성게임 인디게임 부문에서 총 16편의 작품이 선정됐다. 조현래 한국콘텐츠진흥원장 앞줄 왼쪽 다섯 번째부터 김재현 문화체육관광부 국장과 수상자들이 기념촬영 하고 있다  
@@ -36,7 +36,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/029/0002761092?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761092_001_20221023143201124.jpg?type=w647" id="img1"></img><em class="img_desc">21일 오전 서울 송파구보건소에 마련된 선별검사소에서 의료진이 검사를 받으러 온 시민을 안내하고 있다. 연합뉴스    </em>  
+<img src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761092_001_20221023143201124.jpg?type=w647" id="img1"></img><em class="img_desc">21일 오전 서울 송파구보건소에 마련된 선별검사소에서 의료진이 검사를 받으러 온 시민을 안내하고 있다. 연합뉴스    </em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 사흘 연속 1주 전보다 증가 코로나19 신규 확진자가 사흘 연속 일주일 전 대비 증가세를 보이고 있다.
@@ -55,7 +55,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/018/0005347902?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/018/2022/10/23/0005347902_001_20221023142001094.jpg?type=w647" id="img1"></img>  
+<img src="https://imgnews.pstatic.net/image/018/2022/10/23/0005347902_001_20221023142001094.jpg?type=w647" id="img1"></img>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 사진 뉴스1 조승래 의원 더불어민주당 구글식 제3자 결제는 인앱결제 강제를 금지하는 전기통신사업법 제50조의 금지행위에 해당하는 것으로 나타났다.
@@ -72,7 +72,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/079/0003698769?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/079/2022/10/23/0003698769_001_20221023141701204.jpg?type=w647" id="img1"></img><em class="img_desc">다목적실용위성5호(아리랑5호). 연합뉴스</em>  
+<img src="https://imgnews.pstatic.net/image/079/2022/10/23/0003698769_001_20221023141701204.jpg?type=w647" id="img1"></img><em class="img_desc">다목적실용위성5호(아리랑5호). 연합뉴스</em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 핵심요약 국회 과학기술정보통신위원회 소속 더불어민주당 박완주 의원이 과기정통부로부터 받은 자료에 따르면 현재 운용중인 아리랑 위성 3호와 3A호 5호 위성 모두 일부 부품에서 오류가 발생해 대체 부품을 사용하고 있다.
@@ -88,7 +88,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/366/0000849383?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/366/2022/10/23/0000849383_001_20221023143301477.jpg?type=w647" id="img1"></img><em class="img_desc">한국의 다목적실용위성 아리랑5호를 실은 러시아 드네프르 발사체가 2013년 8월 22일 오후 8시 39분쯤 러시아 남부 야스니 발사장에서 발사되고 있다. /한국항공우주연구원</em>  
+<img src="https://imgnews.pstatic.net/image/366/2022/10/23/0000849383_001_20221023143301477.jpg?type=w647" id="img1"></img><em class="img_desc">한국의 다목적실용위성 아리랑5호를 실은 러시아 드네프르 발사체가 2013년 8월 22일 오후 8시 39분쯤 러시아 남부 야스니 발사장에서 발사되고 있다. /한국항공우주연구원</em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 박완주 “아리랑 6·7호 대러 제재·코로나19 등으로 발사·개발 지연” 아리랑 3·3A·5호 대체 부품 사용 중…”기능 수행에는 문제 없어” 한국의 다목적실용위성 아리랑5호를 실은 러시아 드네프르 발사체가 2013년 8월 22일 오후 8시 39분쯤 러시아 남부 야스니 발사장에서 발사되고 있다.
@@ -112,7 +112,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/079/0003698768?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/079/2022/10/23/0003698768_001_20221023141401225.jpg?type=w647" id="img1"></img><em class="img_desc">바이오유럽 제공</em>  
+<img src="https://imgnews.pstatic.net/image/079/2022/10/23/0003698768_001_20221023141401225.jpg?type=w647" id="img1"></img><em class="img_desc">바이오유럽 제공</em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 다음달 1일부터 3일까지 독일 프랑크푸르트에서 열리는 세계 최대 제약 박람회인 국제의약품박람회 에도 국내 기업 62곳이 참가한다.  
@@ -126,7 +126,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/092/0002271493?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/092/2022/10/23/0002271493_001_20221023140701240.jpg?type=w647" id="img1"></img>  
+<img src="https://imgnews.pstatic.net/image/092/2022/10/23/0002271493_001_20221023140701240.jpg?type=w647" id="img1"></img>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 향후 지방자치단체의 보증채무 사업에 대해서는 엄격한 중앙투자심사를 실시하여 부실 사업을 사전에 방지할 계획이다.
@@ -141,7 +141,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/079/0003698765?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/079/2022/10/23/0003698765_001_20221023140601261.jpg?type=w647" id="img1"></img>  
+<img src="https://imgnews.pstatic.net/image/079/2022/10/23/0003698765_001_20221023140601261.jpg?type=w647" id="img1"></img>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 중소기업중앙회가 최근 온라인 플랫폼 입점 소상공인 500곳을 대상으로 설문조사를 실시한 결과 72.4%가 온라인 플랫폼의 수수료와 광고료 등 비용이 부담된다 고 응답했다.  
@@ -155,7 +155,7 @@
 > Original : [원문기사](https://n.news.naver.com/mnews/article/009/0005034220?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/009/2022/10/23/0005034220_001_20221023140402340.jpg?type=w647" id="img1"></img>  
+<img src="https://imgnews.pstatic.net/image/009/2022/10/23/0005034220_001_20221023140402340.jpg?type=w647" id="img1"></img>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 국무총리 소속으로 지위 격하 인력도 전문성 갖추기 어려워 우리 무기는 핵 아냐…반도체고 기술 기획단장도 사퇴…리더십 공백 우려 지식재산 정책 컨트롤타워 국가지식재산위원회 지재위 에서 민간위원장을 맡고 있던 정상조 서울대 법학전문대학원 교수가 위원장직에서 사퇴하겠다는 의사를 밝혔다.
@@ -194,7 +194,7 @@ No Image
 > Original : [원문기사](https://n.news.naver.com/mnews/article/029/0002761081?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761081_001_20221023140401112.jpg?type=w647" id="img1"></img><em class="img_desc">김범수 카카오 창업주. 카카오 제공    </em>  
+<img src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761081_001_20221023140401112.jpg?type=w647" id="img1"></img><em class="img_desc">김범수 카카오 창업주. 카카오 제공    </em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 2021년 10월 국회 국정감사에서 김범수 카카오 창업주 지난해 여야 의원들의 강한 질타를 받으며 연신 고개를 숙였던 김범수 카카오 창업주가 올해도 국회 국정감사에 출석한다.
@@ -214,7 +214,7 @@ No Image
 > Original : [원문기사](https://n.news.naver.com/mnews/article/030/0003053279?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/030/2022/10/23/0003053279_001_20221023140103672.jpg?type=w647" id="img1"></img><em class="img_desc">지난해 지스타 2021이 개최된 벡스코 전시장(전자신문DB)</em>  
+<img src="https://imgnews.pstatic.net/image/030/2022/10/23/0003053279_001_20221023140103672.jpg?type=w647" id="img1"></img><em class="img_desc">지난해 지스타 2021이 개최된 벡스코 전시장(전자신문DB)</em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 지난해 지스타 2021이 개최된 벡스코 전시장 전자신문DB 넥슨이 내달 부산에서 개최되는 국내 최대 게임쇼 지스타 에 300부스 규모로 전시장을 꾸린다.
@@ -233,7 +233,7 @@ B2C관과 야외 광장에 100부스 규모로 전시관을 꾸린다.
 > Original : [원문기사](https://n.news.naver.com/mnews/article/030/0003053278?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/030/2022/10/23/0003053278_001_20221023140101095.jpg?type=w647" id="img1"></img><em class="img_desc">LG전자 모델들이 팝업스토어에서 LG 디오스 오브제컬렉션 무드업을 체험하고 있다. [자료:LG전자]</em>  
+<img src="https://imgnews.pstatic.net/image/030/2022/10/23/0003053278_001_20221023140101095.jpg?type=w647" id="img1"></img><em class="img_desc">LG전자 모델들이 팝업스토어에서 LG 디오스 오브제컬렉션 무드업을 체험하고 있다. [자료:LG전자]</em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 자료 LG전자 LG전자는 21일부터 내달 5일까지 서울 익선동 루프스테이션 익선 에서 독특하고 신비로운 콘셉트의 오브제 유니버스 팝업스토어를 운영한다고 밝혔다.
@@ -249,7 +249,7 @@ LG전자는 LG 씽큐 앱에서 원하는 컬러를 선택하면 냉장고 색�
 > Original : [원문기사](https://n.news.naver.com/mnews/article/293/0000041139?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/293/2022/10/23/0000041139_001_20221023140301393.jpg?type=w647" id="img1"></img><em class="img_desc">LG전자가 강남역에 운영하고 있는 '금성오락실' 전경. (사진=김수민 기자)</em>  
+<img src="https://imgnews.pstatic.net/image/293/2022/10/23/0000041139_001_20221023140301393.jpg?type=w647" id="img1"></img><em class="img_desc">LG전자가 강남역에 운영하고 있는 '금성오락실' 전경. (사진=김수민 기자)</em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 사진 김수민 기자 LG전자가 강남역 한복판에 뉴트로 콘셉트로 ‘금성오락실’을 꾸렸다.
@@ -275,7 +275,7 @@ LG 올레드 플렉스로 레이싱 게임을 즐기는 모습.
 > Original : [원문기사](https://n.news.naver.com/mnews/article/011/0004113358?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/011/2022/10/23/0004113358_001_20221023135801082.jpg?type=w647" id="img1"></img><em class="img_desc">/AP연합뉴스</em>  
+<img src="https://imgnews.pstatic.net/image/011/2022/10/23/0004113358_001_20221023135801082.jpg?type=w647" id="img1"></img><em class="img_desc">/AP연합뉴스</em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 블룸버그 美 첨단 기술 통제 조치 보조 맞춰 바이렌 AI칩 BR100 엔비디아 A100 성능 위협 AP연합뉴스 서울경제 세계 최대 파운드리 업체 TSMC가 중국의 첨단 반도체 스타트업의 인공지능 AI 그래픽처리장치 GPU 위탁 생산을 중단하기로 했다.
@@ -291,7 +291,7 @@ LG 올레드 플렉스로 레이싱 게임을 즐기는 모습.
 > Original : [원문기사](https://n.news.naver.com/mnews/article/029/0002761073?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761073_001_20221023134601098.jpg?type=w647" id="img1"></img><em class="img_desc">한국화학연구원은 얇은 원자층으로 이뤄진 이차원 박막 반도체를 빛으로 땜질해 가공하는 반도체 가공기술을 개발했다.     화학연 제공    </em>  
+<img src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761073_001_20221023134601098.jpg?type=w647" id="img1"></img><em class="img_desc">한국화학연구원은 얇은 원자층으로 이뤄진 이차원 박막 반도체를 빛으로 땜질해 가공하는 반도체 가공기술을 개발했다.     화학연 제공    </em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 화학연 광땜질 반도체 가공기술 개발 레이저로 인듐나노입자 녹여 패턴 형성 반도체 메모리 투명 유연 디스플레이 적용 차세대 반도체 소자로 각광받는 이차원 박막 반도체 를 빛으로 땜질하듯 가공할 수 있는 기술이 개발됐다.
@@ -307,7 +307,7 @@ LG 올레드 플렉스로 레이싱 게임을 즐기는 모습.
 > Original : [원문기사](https://n.news.naver.com/mnews/article/029/0002761070?sid=105)  
 <br/>  
 <!-- 대표 이미지 -->  
-<img  src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761070_001_20221023134201132.jpg?type=w647" id="img1"></img><em class="img_desc">박찬대 의원.    </em>  
+<img src="https://imgnews.pstatic.net/image/029/2022/10/23/0002761070_001_20221023134201132.jpg?type=w647" id="img1"></img><em class="img_desc">박찬대 의원.    </em>  
 <br/><br/>  
 <!-- 기사 본문 -->  
 23일 국회 과학기술정보방송통신위원회 소속 박찬대 더불어민주당 의원이 과기정통부로부터 제출받은 통신서비스 품질평가 신뢰성 제고 방안 에 따르면 과기정통부와 이동통신 3사가 해당 구간의 LTE 품질 개선에 나설 예정이다.
