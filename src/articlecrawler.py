@@ -117,7 +117,8 @@ class ArticleCrawler(object):
 
                 # 공백일 경우 기사 제외 처리
                 if not summary_contents:
-                    raise Exception('Not found article contents')
+                    print("Skipped Headline: " + text_headline)
+                    continue
 
                 # 본문 이미지
                 img_src = document_content.find_all('img', {'id': 'img1'})
