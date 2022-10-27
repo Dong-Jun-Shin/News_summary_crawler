@@ -3,7 +3,9 @@
 name: news_crawler
 
 on:
-  # push:
+  push:
+    branches:
+      - 'test/workflow'
   schedule:
     - cron: '0 6 * * *'
  
