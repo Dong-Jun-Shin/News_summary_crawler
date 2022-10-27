@@ -151,11 +151,13 @@ class ArticleCrawler(object):
 
                 # 기사 시간대 가져옴
                 time = re.findall('<span class="media_end_head_info_datestamp_time _ARTICLE_MODIFY_DATE_TIME" data-modify-date-time="(.*)">(.*)</span>', request_content.text)
-                # 스포츠 기사 대응 코드 (수정 필요)
                 if not time:
                     time = re.findall('<span class="media_end_head_info_datestamp_time _ARTICLE_DATE_TIME" data-date-time="(.*)">(.*)</span>', request_content.text)
-                print(time)
-                time = time[0][1]
+                # 스포츠 기사 대응 코드 (수정 필요)
+                if not time:
+                    time = '-'
+                else:
+                    time = time[0][1]
 
                 # MD 작성
                 writer.write_title(text_headline)
