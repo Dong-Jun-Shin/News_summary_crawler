@@ -154,6 +154,7 @@ class ArticleCrawler(object):
                 # 스포츠 기사 대응 코드 (수정 필요)
                 if not time:
                     time = re.findall('<span class="media_end_head_info_datestamp_time _ARTICLE_DATE_TIME" data-date-time="(.*)">(.*)</span>', request_content.text)
+                print(time)
                 time = time[0][1]
 
                 # MD 작성
