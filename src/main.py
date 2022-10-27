@@ -9,9 +9,9 @@ USER_EMAIL = 'tlsehdwns239@gmail.com'
 SUMMARY = 'Create TodayNewsSummary'
 DESCRIPTION = '- 뉴스 요약 생성'
 
-# SOURCE_REPO_PATH = os.environ['GITHUB_WORKSPACE']
+SOURCE_REPO_PATH = os.environ['GITHUB_WORKSPACE']
 # SOURCE_REPO_PATH = 'C:/Users/user/Desktop/Repo/News_summary_crawler'
-SOURCE_REPO_PATH = 'C:/Users/tlseh/Desktop/News_summary_crawler'
+# SOURCE_REPO_PATH = 'C:/Users/tlseh/Desktop/News_summary_crawler'
 
 def get_tracked_path(repo):
     # 추가, 수정, 삭제된 파일을 트래킹
@@ -84,6 +84,5 @@ def auto_push():
 if __name__ == "__main__":
     Crawler = ArticleCrawler()
     Crawler.set_category('IT과학', '경제', '사회')
-    Crawler.start() 
-
+    Crawler.start()
     auto_push()
