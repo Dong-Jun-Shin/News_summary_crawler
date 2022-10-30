@@ -39,9 +39,6 @@ def push_proc(repo):
 
     try:
         origin = repo.remotes.origin
-        origin = None
-        pulled_branches = None
-        pushed_branch = None
         if not origin:
             raise Exception
 
