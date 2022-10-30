@@ -13,6 +13,7 @@ DESCRIPTION = '- 뉴스 요약 생성'
 # SOURCE_REPO_PATH = 'C:/Users/user/Desktop/Repo/News_summary_crawler'
 SOURCE_REPO_PATH = 'C:/Users/tlseh/Desktop/News_summary_crawler'
 
+
 def get_tracked_path(repo):
     # 추가, 수정, 삭제된 파일을 트래킹
     add_index = repo.untracked_files
@@ -33,13 +34,13 @@ def make_commit_message():
 def push_proc(repo):
     branches = repo.remotes.origin.pull()
     branch = None
-    if branches.length == 0:
+    if len(branches) == 0:
         return 'push_proc: Failed'
 
     for e in branches:
         if e.name == 'origin/main':
             branch = e
-    
+  
     if not branch:
         return 'push_proc: Failed'
 
