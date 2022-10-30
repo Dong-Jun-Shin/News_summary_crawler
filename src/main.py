@@ -37,15 +37,17 @@ def push_proc(repo):
     try:
         origin = repo.remotes.origin
         origin = None
+        pulled_branches = None
+        pushed_branch = None
         if not origin:
             raise Exception
 
         # push 전 pull 실행
         pulled_branches = origin.pull()
         # push 실행
-        pushing_branch = origin.push()
+        pushed_branch = origin.push()
     except Exception as push_err:
-        GitErrLog(push_err=push_err, pull_result=pulled_branches, push_result=pushing_branch)
+        GitErrLog(push_err=push_err, pull_result=pulled_branches, push_result=pushed_branch)
         if RETRY_COUNT < 5:
             RETRY_COUNT += 1
             push_proc(repo)
