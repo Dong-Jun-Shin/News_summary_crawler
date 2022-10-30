@@ -31,9 +31,21 @@ def make_commit_message():
 
 
 def push_proc(repo):
+    branches = repo.remotes.origin.pull()
+    branch = None
+    if branches.length == 0:
+        return 'push_proc: Failed'
+
+    for e in branches:
+        if e.name == 'origin/main':
+            branch = e
+    
+    if not branch:
+        return 'push_proc: Failed'
+
     try:
         # push 전 pull 실행
-        pull_result = repo.remotes.origin.pull()[0]     # output >>> origin/main
+        pull_result = branch[0]     # output >>> origin/main
         # push 실행
         push_result = repo.remotes.origin.push()[0]
     except Exception as push_err:
