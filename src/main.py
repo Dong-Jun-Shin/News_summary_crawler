@@ -1,6 +1,7 @@
 import os
 from datetime import date
 from git import Repo, Actor
+from pyautogui import sleep
 from articlecrawler import ArticleCrawler
 from exceptions import GitErrLog
 
@@ -12,6 +13,9 @@ DESCRIPTION = '- 뉴스 요약 생성'
 SOURCE_REPO_PATH = os.environ['GITHUB_WORKSPACE']
 # SOURCE_REPO_PATH = 'C:/Users/user/Desktop/Repo/News_summary_crawler'
 # SOURCE_REPO_PATH = 'C:/Users/tlseh/Desktop/News_summary_crawler'
+
+RETRY_COUNT = 0
+
 
 def get_tracked_path(repo):
     # 추가, 수정, 삭제된 파일을 트래킹
@@ -31,15 +35,27 @@ def make_commit_message():
 
 
 def push_proc(repo):
+    global RETRY_COUNT
+
     try:
+        origin = repo.remotes.origin
+        if not origin:
+            raise Exception
+
         # push 전 pull 실행
-        pull_result = repo.remotes.origin.pull()[0]     # output >>> origin/main
+        pulled_branches = origin.pull()
         # push 실행
-        push_result = repo.remotes.origin.push()[0]
+        pushed_branch = origin.push()
+
+        return 'push_proc : Success'
     except Exception as push_err:
-        GitErrLog(push_err=push_err, pull_result=pull_result, push_result=push_result)
-        return 'push_proc : Failure'
-    return 'push_proc : Success'
+        GitErrLog(push_err=push_err, pull_result=pulled_branches, push_result=pushed_branch)
+        if RETRY_COUNT < 5:
+            RETRY_COUNT += 1
+            sleep(5)
+            push_proc(repo)
+        else:
+            return 'push_proc : Failure'
 
 
 def commit_proc(repo):

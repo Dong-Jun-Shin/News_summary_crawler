@@ -85,6 +85,8 @@ class ArticleCrawler(object):
                 # 스포츠 기사 대응 코드 (수정 필요)
                 if not tag_headline:
                     tag_headline = document_content.find_all('h4', {'class': 'title'})
+                if not tag_headline:
+                    continue
 
                 # 뉴스 기사 제목 초기화
                 text_headline = ''
@@ -99,6 +101,9 @@ class ArticleCrawler(object):
                 # 스포츠 기사 대응 코드 (수정 필요)
                 if not tag_content:
                     tag_content = document_content.find_all('div', {'id': 'newsEndContents'})
+                if not tag_content:
+                    continue
+                
                 # 뉴스 기사 본문 초기화
                 text_sentence = ''
                 text_sentence = text_sentence + ArticleParser.clear_content(str(tag_content[0].find_all(text=True)))
@@ -151,9 +156,9 @@ class ArticleCrawler(object):
 
                 # 기사 시간대 가져옴
                 time = re.findall('<span class="media_end_head_info_datestamp_time _ARTICLE_MODIFY_DATE_TIME" data-modify-date-time="(.*)">(.*)</span>', request_content.text)
-                # 스포츠 기사 대응 코드 (수정 필요)
                 if not time:
                     time = re.findall('<span class="media_end_head_info_datestamp_time _ARTICLE_DATE_TIME" data-date-time="(.*)">(.*)</span>', request_content.text)
+                # 스포츠 기사 대응 코드 (수정 필요)
                 if not time:
                     time = '-'
                 else:
