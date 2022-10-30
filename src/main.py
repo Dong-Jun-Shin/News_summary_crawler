@@ -13,6 +13,8 @@ DESCRIPTION = '- 뉴스 요약 생성'
 # SOURCE_REPO_PATH = 'C:/Users/user/Desktop/Repo/News_summary_crawler'
 SOURCE_REPO_PATH = 'C:/Users/tlseh/Desktop/News_summary_crawler'
 
+RETRY_COUNT = 0
+
 
 def get_tracked_path(repo):
     # 추가, 수정, 삭제된 파일을 트래킹
@@ -34,34 +36,21 @@ def make_commit_message():
 def push_proc(repo):
     try:
         origin = repo.remotes.origin
+        origin = None
+        if not origin:
+            raise Exception
+
         # push 전 pull 실행
-        pulledBranches = origin.pull()
-        pull_result = None          # output >>> origin/main
-        if len(pulledBranches) == 0:
-            return 'push_proc: Failed'
-
-        for branch in pulledBranches:
-            if branch.name == 'origin/main':
-                pull_result = branch
-
-        if not pull_result:
-            return 'push_proc: Failed'
-
+        pulled_branches = origin.pull()
         # push 실행
-        pushingBranch = origin.push()[0]
-        push_result = None          # output >>> origin/main
-        if len(pushingBranch) == 0:
-            return 'push_proc: Failed'
-
-        for branch in pushingBranch:
-            if branch.name == 'origin/main':
-                push_result = branch
-
-        if not push_result:
-            return 'push_proc: Failed'
+        pushing_branch = origin.push()
     except Exception as push_err:
-        GitErrLog(push_err=push_err, pull_result=pull_result, push_result=push_result)
-        return 'push_proc : Failure'
+        GitErrLog(push_err=push_err, pull_result=pulled_branches, push_result=pushing_branch)
+        if RETRY_COUNT < 5:
+            RETRY_COUNT += 1
+            push_proc(repo)
+        else:
+            return 'push_proc : Failure'
     return 'push_proc : Success'
 
 
@@ -107,5 +96,5 @@ def auto_push():
 if __name__ == "__main__":
     Crawler = ArticleCrawler()
     Crawler.set_category('IT과학', '경제', '사회')
-    Crawler.start()
+    # Crawler.start()
     auto_push()
