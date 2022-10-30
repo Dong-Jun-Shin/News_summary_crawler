@@ -1,7 +1,6 @@
-import os
+import os, time
 from datetime import date
 from git import Repo, Actor
-from pyautogui import sleep
 from articlecrawler import ArticleCrawler
 from exceptions import GitErrLog
 
@@ -52,7 +51,7 @@ def push_proc(repo):
         GitErrLog(push_err=push_err, pull_result=pulled_branches, push_result=pushed_branch)
         if RETRY_COUNT < 5:
             RETRY_COUNT += 1
-            sleep(5)
+            time.sleep(5)
             push_proc(repo)
         else:
             return 'push_proc : Failure'
