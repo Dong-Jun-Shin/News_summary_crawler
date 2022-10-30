@@ -34,6 +34,8 @@ def make_commit_message():
 
 
 def push_proc(repo):
+    global RETRY_COUNT
+
     try:
         origin = repo.remotes.origin
         origin = None
