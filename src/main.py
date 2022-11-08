@@ -68,6 +68,8 @@ def commit_proc(repo):
     # git staging 생성
     add_files, del_files = get_tracked_path(repo)
     r_index = repo.index
+    print(author)
+    print(message)
     print(add_files, del_files)
 
     try:
@@ -82,7 +84,8 @@ def commit_proc(repo):
     # git commit 생성
     try:
         if stg_add or stg_del:
-            r_index.commit(message, author=author)
+            commit_object = r_index.commit(message, author=author)
+            print(commit_object)
     except Exception as cmt_err:
         GitErrLog(cmt_err=cmt_err, stg_add=stg_add, stg_del=stg_del)
         return False
