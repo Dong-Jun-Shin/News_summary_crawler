@@ -41,15 +41,13 @@ def push_proc(repo):
             raise Exception
 
         # push 전 pull 실행
-        pulled_branches = repo.remotes.origin.pull()
+        pulled_branches = repo.remotes.origin.pull()[0]
         # push 실행
-        print(repo.remotes.origin)
-        repo.remotes.origin.push().raise_if_error()
+        pushed_branch = repo.remotes.origin.push()[0]
 
         return 'push_proc : Success'
     except Exception as push_err:
-        # GitErrLog(push_err=push_err, pull_result=pulled_branches, push_result=pushed_branch)
-        GitErrLog(push_err=push_err, pull_result=pulled_branches, push_result="empty")
+        GitErrLog(push_err=push_err, pull_result=pulled_branches, push_result=pushed_branch)
         if RETRY_COUNT < 5:
             RETRY_COUNT += 1
             time.sleep(5)
