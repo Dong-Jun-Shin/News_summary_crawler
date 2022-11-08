@@ -40,15 +40,10 @@ def push_proc(repo):
         if not repo.remotes.origin:
             raise Exception
 
-        print(repo)
-        print(repo.remotes)
-        print(repo.remotes.origin.refs)
-        print(repo.remotes.origin.refs.main)
         # push 전 pull 실행
         pulled_branches = repo.remotes.origin.pull()
         # push 실행
         pushed_branch = repo.remotes.origin.push()
-        print(pushed_branch)
 
         return 'push_proc : Success'
     except Exception as push_err:
@@ -68,9 +63,7 @@ def commit_proc(repo):
     # git staging 생성
     add_files, del_files = get_tracked_path(repo)
     r_index = repo.index
-    print(author)
-    print(message)
-    print(add_files, del_files)
+    print(r_index)
 
     try:
         stg_add, stg_del = [], []
@@ -84,8 +77,7 @@ def commit_proc(repo):
     # git commit 생성
     try:
         if stg_add or stg_del:
-            commit_object = r_index.commit(message, author=author)
-            print(commit_object)
+            r_index.commit(message, author=author)
     except Exception as cmt_err:
         GitErrLog(cmt_err=cmt_err, stg_add=stg_add, stg_del=stg_del)
         return False
