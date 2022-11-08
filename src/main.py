@@ -45,9 +45,9 @@ def push_proc(repo):
         print(repo.remotes.origin.refs)
         print(repo.remotes.origin.refs.main)
         # push 전 pull 실행
-        pulled_branches = repo.remotes.origin.refs.main.pull()
+        pulled_branches = repo.remotes.origin.pull()
         # push 실행
-        pushed_branch = repo.remotes.origin.refs.main.push()
+        pushed_branch = repo.remotes.origin.push()
         print(pushed_branch)
 
         return 'push_proc : Success'
@@ -69,7 +69,7 @@ def commit_proc(repo):
     add_files, del_files = get_tracked_path(repo)
     r_index = repo.index
     print(add_files, del_files)
-    
+
     try:
         stg_add, stg_del = [], []
         if add_files:
