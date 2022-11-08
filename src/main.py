@@ -42,11 +42,11 @@ def push_proc(repo):
 
         print(repo)
         print(repo.remotes)
-        print(repo.remotes.origin)
+        print(repo.refs["origin/master"])
         # push 전 pull 실행
-        pulled_branches = repo.remotes.origin.pull()
+        pulled_branches = repo.refs["origin/master"].pull()
         # push 실행
-        pushed_branch = repo.remotes.origin.push()
+        pushed_branch = repo.refs["origin/master"].push()
         print(pushed_branch)
 
         return 'push_proc : Success'
