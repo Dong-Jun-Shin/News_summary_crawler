@@ -43,7 +43,7 @@ def push_proc(repo):
         # push 전 pull 실행
         pulled_branches = repo.remotes.origin.pull()
         # push 실행
-        pushed_branch = repo.remotes.origin.push()
+        pushed_branch = repo.remotes.origin.push().raise_if_error()
 
         return 'push_proc : Success'
     except Exception as push_err:
@@ -62,9 +62,7 @@ def commit_proc(repo):
     message = make_commit_message()
     # git staging 생성
     add_files, del_files = get_tracked_path(repo)
-    # r_index = repo.index
-    r_index = repo.remotes.origin.index
-    print(r_index)
+    r_index = repo.index
 
     try:
         stg_add, stg_del = [], []
