@@ -43,8 +43,8 @@ def push_proc(repo):
         # push 전 pull 실행
         pulled_branches = repo.remotes.origin.pull()
         # push 실행
-        print(repo.remotes.origin.refs["main"])
-        repo.remotes.origin.refs["main"].push().raise_if_error()
+        print(repo.remotes.origin)
+        repo.remotes.origin.push().raise_if_error()
 
         return 'push_proc : Success'
     except Exception as push_err:
