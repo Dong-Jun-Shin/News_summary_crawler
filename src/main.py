@@ -40,6 +40,9 @@ def push_proc(repo):
         if not repo.remotes.origin:
             raise Exception
 
+        print(repo)
+        print(repo.remotes)
+        print(repo.remotes.origin)
         # push 전 pull 실행
         pulled_branches = repo.remotes.origin.pull()
         # push 실행
