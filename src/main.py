@@ -62,7 +62,8 @@ def commit_proc(repo):
     message = make_commit_message()
     # git staging 생성
     add_files, del_files = get_tracked_path(repo)
-    r_index = repo.index
+    # r_index = repo.index
+    r_index = repo.remotes.origin.index
     print(r_index)
 
     try:
