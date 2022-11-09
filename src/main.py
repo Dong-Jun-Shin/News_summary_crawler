@@ -45,7 +45,7 @@ def push_proc(repo):
         # push 실행
         pushed_branch = repo.remotes.origin.push()[0]
 
-        return 'push_proc : Success'
+        return 'push_proc : ' + pushed_branch.summary
     except Exception as push_err:
         GitErrLog(push_err=push_err, pull_result=pulled_branches, push_result=pushed_branch)
         if RETRY_COUNT < 5:
